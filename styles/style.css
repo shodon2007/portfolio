@@ -52,6 +52,10 @@
   margin-right: auto;
 }
 
+.face__img img {
+  max-width: 100vw;
+}
+
 .face__top {
   display: flex;
   justify-content: space-between;
@@ -86,7 +90,7 @@
 }
 
 .about {
-  margin-top: 100px;
+  margin: 100px 0 0 0;
   padding: 100px;
   width: 100vw;
   background-color: #F6F6F6;
@@ -114,4 +118,44 @@
 
 .about__text p:first-child {
   margin: 0 0 30px 0;
+}
+
+.skills {
+  padding: 100px;
+  width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skills__title {
+  font-family: gilroy;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.skills__text {
+  font-family: gilroy;
+  font-size: 18px;
+  margin: 70px 0;
+}
+
+.skills__programs {
+  display: flex;
+}
+
+.program__name {
+  font-family: gilroy;
+  font-size: 14px;
+  color: #828282;
+}
+
+.skills__programs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.program__img img {
+  background-image: url(../img/img__photoshop__bg.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }/*# sourceMappingURL=style.css.map */
