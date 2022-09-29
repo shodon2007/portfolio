@@ -20,13 +20,35 @@
         </nav>
     </header>
     <main>
+        <div class="burger">
+            <nav class="burger__nav">
+                <a href="#" class="burger__link">Home</a>
+                <a href="#" class="burger__link">About me</a>
+                <a href="#" class="burger__link">Skills</a>
+                <a href="#" class="burger__link">Portfolio</a>
+                <a href="#" class="burger__link">Contacts</a>
+            </nav>
+            <div class="burger__right">
+                <div class="burger__button">
+                    <img onclick="burger__click()" src="img/burger__on.png" alt="burger__on">
+                </div>
+                <div class="burger__translate">
+                    <a href="#" class="translate__ru passive">RU |</a>
+                    <a href="#" class="translate__eng active">ENG</a>
+                </div>
+            </div>
+        </div>
         <div class="face body">
             <div class="face__top">
                 <div class="face__title">
-                    Denis <br> Novik
+                    <div class="title__name">Denis <br> Novik</div>
+                    <div class="title__burger">
+                        <img onclick="burger__click()" src="img/burger__off.png" alt="burger__off">
+                    </div>
                 </div>
                 <div class="face__speciality">
-                    UX | UI designer 24 years old
+                    <span class="speciality__name">UX | UI designer</span>
+                    <span class="speciality__year"> 24 years old</span>
                 </div>
                 <div class="face__translate">
                     <a href="#" class="translate__ru passive">RU |</a>
@@ -36,6 +58,9 @@
             <div class="face__bottom">
                 <div class="face__img">
                     <img src="img/main__img.png" alt="my-picture">
+                </div>
+                <div class="face__img-mobile">
+                    <img src="img/main__img_mobile.png" alt="my-picture">
                 </div>
             </div>
         </div>
@@ -120,19 +145,19 @@
             <div class="portfolio__title">
                 Portfolio
             </div>
-            <div class="portfolio__fashion-store portfolio__img">
+            <div class="portfolio__img">
                 <img src="img/fashion-store.png" alt="fashion-store">
             </div>
             <div class="portfolio__link">
                 <a href="#">Online fashion store - Homepage</a>
             </div>
-            <div class="portfolio__reebok portfolio__img">
+            <div class="portfolio__img">
                 <img src="img/reebok.png" alt="reebok">
             </div>
             <div class="portfolio__link">
                 <a href="#">Reebok Store - Concept</a>
             </div>
-            <div class="portfolio__braun portfolio__img">
+            <div class="portfolio__img">
                 <img src="img/braun.png" alt="braun">
             </div>
             <div class="portfolio__link">
@@ -158,10 +183,11 @@
             </div>
             <div class="contacts__wish">
                 Like me on <br>
-                LinkedIn, Instagram, Behance, Dribble
+                LinkedIn, Insqtagram, Behance, Dribble
             </div>
         </div>
     </main>
+    <script src="scripts/script.js"></script>
 </body>
 
 </html>
