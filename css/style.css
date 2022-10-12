@@ -48,6 +48,10 @@
   color: black;
 }
 
+.title__burger {
+  display: none;
+}
+
 .face {
   margin-left: auto;
   margin-right: auto;
@@ -296,6 +300,9 @@
     display: flex;
     justify-content: space-between;
   }
+  .title__burger {
+    display: block;
+  }
   .face__top {
     display: flex;
     flex-wrap: wrap;
@@ -363,4 +370,4 @@
   .contacts__wish {
     margin: 50px 0 0 0;
   }
-}/*# sourceMappingURL=style.css.map */
+}
