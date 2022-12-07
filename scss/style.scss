@@ -241,6 +241,7 @@
 }
 
 .link__body:hover {
+    cursor: pointer;
     background-color: #fff;
     color: black;
 }
@@ -250,6 +251,10 @@
     display: flex;
     justify-content: space-between;
     width: 50%;
+}
+
+.link__img:hover {
+    cursor: pointer;
 }
 
 .contacts__wish {
